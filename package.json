@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mcp:dev": "npx -y @modelcontextprotocol/server-puppeteer",
+    "mcp:start": "npx -y @modelcontextprotocol/server-puppeteer --production"
   },
   "dependencies": {
     "next": "14.1.0",
@@ -25,7 +27,9 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-react": "^0.330.0",
-    "tailwind-merge": "^2.2.1"
+    "tailwind-merge": "^2.2.1",
+    "@modelcontextprotocol/server-puppeteer": "latest",
+    "puppeteer": "^22.3.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
